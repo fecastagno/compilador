@@ -1,0 +1,21 @@
+const k1 = -1, K2 = 2;
+
+var hex, n;
+procedure hexagonal;
+var N2;
+begin
+  N2 := 2 * N;
+  hex := N2 * (N2 + K1);
+  shr(hex)
+end;
+
+begin
+  n := -k1;
+  while n < 9 do
+    begin
+      call hexagonal;
+      write (hex, ' ');
+      n := n + 1
+    end;
+  writeln
+end.

@@ -1,0 +1,15 @@
+var X, Y;
+procedure INICIAR;
+ const y=2;
+ procedure ASIGNAR;
+ X := Y;
+ call ASIGNAR;
+ 
+ begin 
+ write('NUM=');
+ readln(y);
+ call INICIAR;
+ writeln('NUM*2=',y*x)
+ end.
+
+

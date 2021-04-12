@@ -1,0 +1,16 @@
+CONST D=2;
+VAR X, Y;
+PROCEDURE P;
+	VAR X;
+	BEGIN
+		X:=D;
+		Y:=X;
+	END;
+BEGIN
+	WRITE('X: ');
+	READLN(X);	
+	CALL P;
+	WRITE('DOBLE: ');
+	WRITELN(X*Y);
+END.
+	

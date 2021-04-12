@@ -1,0 +1,12 @@
+CONST K=1;
+VAR x;
+PROCEDURE M;
+VAR K;
+begin
+readln(K);
+x:=K;
+end;
+begin
+call M;
+writeln(x+K);
+end.

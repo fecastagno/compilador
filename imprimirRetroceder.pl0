@@ -1,0 +1,24 @@
+const TRES = 3;
+
+var x;
+
+procedure imprimirRetroceder;
+const UNO = 1;
+begin
+	writeln;
+	x := x + (UNO - TRES)
+end;
+
+begin
+	X := 18;
+	while x > 0 do
+		begin
+			repeat X/(TRES-1) times begin
+										write(0);
+										write(X/2);
+										write(' ');
+									end;
+			call imprimirRetroceder
+		end;
+	writeln('OK')
+end.

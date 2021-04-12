@@ -1,0 +1,33 @@
+const k1 = 0, K2 = 1;
+
+var n1, n2, pe, cont, cant;
+
+procedure pell;
+begin
+ pe := n1 + 2*n2;
+ n1 := n2;
+ n2 := pe
+end;
+
+begin
+ write ('Cuantos numeros de Pell desea ver [min. 3]? ');
+ readLn (cant);
+ while cant < 3 do
+  begin
+   write ('Cuantos numeros de Pell desea ver [min. 3]? ');
+   readLn (cant);
+  end; 
+ write (k1, ' ', k2, ' ');
+ N1 := K1;
+ n2 := k2;
+ cont := 2;
+ do
+  begin
+   call pell;
+   cont := cont + 1;
+   write (pe, ' ')
+  end
+ while cont < cant;
+ writeln
+end.
+

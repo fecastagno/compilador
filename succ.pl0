@@ -1,0 +1,17 @@
+const K = -1;
+
+var I, N;
+
+procedure renglon;
+	writeln (N, ' x ', i/n, ' = ', I);
+
+begin
+	write ('N: ');
+	readln (N);
+	I := -K;
+	while I < N * (10) + 1 do
+		begin
+			if I MOD N = 0 then call renglon;
+			succ(I)
+		end;
+end.

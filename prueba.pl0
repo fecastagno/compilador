@@ -1,0 +1,6 @@
+const TRES = 3;
+var X;
+begin
+	x := 8;
+	writeln(X/(TRES-1))
+end.

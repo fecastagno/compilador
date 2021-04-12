@@ -1,0 +1,7 @@
+var a, b;
+begin
+	readln (a, b);
+	writeln (a mod b);
+	succ(a);
+	writeln (a)
+end.
