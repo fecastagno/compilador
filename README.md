@@ -6,5 +6,5 @@
 # 
 # 2) Si es correcto, al llegar al final del archivo imprimirá el string: "Enhorabuena" y se creará el ejecutable (BIEN-00.exe)
 # 
-# 3) Correr el archivo generado en consola: _>BIEN-00.exe# 
+# 3) Correr el archivo generado en consola: _>BIEN-00.exe
 # 
